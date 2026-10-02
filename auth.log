@@ -1,0 +1,7 @@
+src=203.0.113.42 user=admin action=login_failed count=12
+src=10.0.0.5 user=anna action=login_ok count=0
+src=198.51.100.7 user=root action=login_failed count=4
+src=192.0.2.44 user=backup action=login_failed count=18
+src=999.999.999.999 user=test action=login_failed count=20
+src=203.0.113.15 user=service action=login_failed count=11
+broken_line
