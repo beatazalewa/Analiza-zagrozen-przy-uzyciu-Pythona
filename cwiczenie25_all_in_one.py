@@ -43,7 +43,7 @@ print(
 )
 
 print(
-    f"IOC: "
+    f"IoC: "
     f"{report['unique_iocs']}"
 )
 

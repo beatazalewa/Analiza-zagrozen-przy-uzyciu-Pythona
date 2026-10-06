@@ -42,10 +42,10 @@ def calculate_risk(
 
     score = 0
 
-    if failed_count >= 10:
+    if failed_count >= 15:
         score += 30
 
-    if failed_count >= 15:
+    if failed_count >= 10:
         score += 20
 
     if known_ioc:
@@ -146,7 +146,7 @@ for alert in alerts:
     )
 
     print(
-        f"Known IOC: {alert['ioc']}"
+        f"Known IoC: {alert['ioc']}"
     )
 
     print(
@@ -178,7 +178,7 @@ print(
 Zadanie dla uczestniczek
 Po uruchomieniu gotowej wersji należy kolejno:
 1. zmienić próg login_failed,
-2. dodać nowy IOC do known_iocs,
+2. dodać nowy IoC do known_iocs,
 3. zmienić punktację,
 4. dodać nowy poziom severity,
 5. dodać kolejne zdarzenia do log_data,

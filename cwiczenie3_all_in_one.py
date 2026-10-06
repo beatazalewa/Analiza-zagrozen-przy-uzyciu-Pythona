@@ -46,7 +46,7 @@ for line in log_data.strip().splitlines():
 counts = Counter(observed_ips)
 
 
-print("\n--- IOC ---")
+print("\n--- IoC ---")
 
 for ip, count in counts.most_common():
 
@@ -128,5 +128,5 @@ Następnie uruchom program ponownie i sprawdź:
 - czy nowy adres został wykryty,
 - ile razy występuje,
 - czy błędny adres został odrzucony,
-- czy lista unikalnych IOC zawiera duplikaty.
+- czy lista unikalnych IoC zawiera duplikaty.
 """

@@ -23,7 +23,7 @@ if known_ioc:
     score += 50
 
     print(
-        "+50: znany IOC"
+        "+50: znany IoC"
     )
 
 

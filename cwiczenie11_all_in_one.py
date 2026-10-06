@@ -32,7 +32,7 @@ for line in log_data.strip().splitlines():
 
         print(
             f"ALERT: {source} "
-            f"połączył się z IOC "
+            f"połączył się z IoC "
             f"{destination}"
         )
 

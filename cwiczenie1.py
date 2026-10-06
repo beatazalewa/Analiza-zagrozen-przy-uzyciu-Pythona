@@ -17,8 +17,7 @@ for value in failed_logins:
         print(f"OK: {value} nieudanych logowań")
 
 print()
-print(f"Liczba alertów: {alert_count}"
-)
+print(f"Liczba alertów: {alert_count}")
 print()
 print("***** Accounts *****")
 print()
